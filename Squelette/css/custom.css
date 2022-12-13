@@ -1,0 +1,124 @@
+/* Vos customisations des classes de Bootstrap */
+
+/* GLOBALS */
+
+h1, h4, h5, h6, a{
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+    font-size:larger;
+}
+
+h3 {
+    font-family: 'Arvo', sans-serif;
+    font-size:large;
+    text-align: center;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 1em;
+
+}
+
+hr {
+    color: rgb(231, 76, 60);
+}
+
+.back-to-top{
+    position: fixed;
+    right: -100px;
+    bottom: 20px;
+}
+.back-to-top.active{
+    transition-duration: .5s;
+    right: 20px;
+}
+
+/* Section Home  */
+#home {
+    background-image: url(../images/hero-image.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+h2 span {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.btn-danger{
+    background-color:rgb(231, 76, 60);
+  }
+
+/* Who we are */ 
+
+#who span {
+color: rgb(231, 76, 60);
+}
+
+.red{
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(231, 76, 60);
+    padding-top: 10px;
+}
+.red-1{
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(231, 76, 60);
+    padding-top: 15px;
+}
+
+#who{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Get involved */
+
+#get-involved {
+    width: 100%;
+
+}
+
+.rounded-image {
+    border-radius: 50%;
+}
+
+/* Footer */
+
+footer {
+    height: 300px;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(231, 76, 60) ;
+}
+
+.foot {
+    position:absolute;
+    text-align: left;
+    margin-top: 200px;
+    padding-left: 330px;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
